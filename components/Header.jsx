@@ -12,7 +12,7 @@ const link = [
 function Header() {
   return (
     <>
-      <div className=" w-full flex h-[104px] px-[7%] sm:px-[3%] items-center bg-[#fff]">
+      <div className=" w-full flex h-full pt-[30px] sm:pt-0 sm:h-[104px] px-[7%] sm:px-[3%] items-center bg-[#fff]">
         <nav className=" max-w-[1340px] w-full mx-auto flex items-center justify-between">
           <div className=" mt-0 sm:mt-[-16px] flex w-[50%] min-h-[50%] items-center">
             <div className=" mr-[48px] flex items-center">
