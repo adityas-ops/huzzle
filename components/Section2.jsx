@@ -7,7 +7,7 @@ function Section2() {
          <div className='sm:pt-[189px] pt-[130px] pb-0 sm:pb-[61px]  bg-cover bg-[url(/images/backgrounds/section2.png)] ' style={{
             backgroundPosition:"0 0",
             backgroundSize:"cover",}}>
-            <div className=' mt-[-48px] mb-[90px] w-full px-[10px] sm:px-[75px] max-[940px] mx-auto'>
+            <div className=' mt-[-48px] mb-0 sm:mb-[90px] w-full px-[10px] sm:px-[75px] max-[940px] mx-auto'>
                 <div>
                     <p className='mt-0 mb-[24px] text-[#222] font-Inter text-[28px] sm:text-[44px] max-w-[790px] mx-auto leading-[1.2] font-[900] text-center'>
                     Explore Grad Jobs, Internships, Spring Weeks & Events
@@ -25,5 +25,5 @@ function Section2() {
     </>
   )
 }
-
+ 
 export default Section2
