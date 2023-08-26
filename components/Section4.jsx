@@ -59,7 +59,7 @@ function Section4() {
           </Marquee>
         </div>
         <div className=" mt-[60px] flex items-center justify-center">
-                <Link href="/" className=" bg-[#000] py-[12px] px-[50px] text-white font-Recoleta font-[700] text-[24px] rounded-[30px]">
+                <Link href="/" className=" bg-[#000] py-[12px] px-[50px] text-white font-Recoleta font-[700]  text-[20px] sm:text-[24px] rounded-[30px]">
                     Get Matches Now!
                 </Link>
         </div>
