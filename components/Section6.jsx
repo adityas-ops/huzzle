@@ -11,6 +11,62 @@ const data = [
     img: "/images/section6/1.png",
     img2: "/images/section6/frame/apple.svg",
   },
+  {
+    id: 2,
+    title:"Such a great idea",
+    decs: "The first match were actually pretty good",
+    img: "/images/section6/2.png",
+    img2: "/images/section6/frame/play.svg",
+  },
+  {
+    id: 3,
+    title:"Sick!",
+    decs: "A friend told me about it, now i'm using it every week.",
+    img: "/images/section6/3.png",
+    img2: "/images/section6/frame/apple.svg",
+  },
+  {
+    id: 4,
+    title:"Really really really",
+    decs: "As a first year, I love that it also matches you to student societies.",
+    img: "/images/section6/4.png",
+    img2: "/images/section6/frame/apple.svg",
+  },
+  {
+    id: 5,
+    title:"Great App",
+    decs: "Came from Switzerland to London and instantly got great events through Huzzle.",
+    img: "/images/section6/5.png",
+    img2: "/images/section6/frame/play.svg",
+  },
+  {
+    id: 6,
+    title:"Supperbb",
+    decs: "Huzzle matched me with really good graduate schemes",
+    img: "/images/section6/2.png",
+    img2: "/images/section6/frame/apple.svg",
+  },
+  {
+    id: 7,
+    title:"Really valuable",
+    decs: "I went to 2 events Huzzle matched me with.",
+    img: "/images/section6/7.png",
+    img2: "/images/section6/frame/apple.svg",
+  },
+  {
+    id: 8,
+    title:"It's really cool concept",
+    decs: "The matches I'm getting are pretty amazing",
+    img: "/images/section6/8.png",
+    img2: "/images/section6/frame/apple.svg",
+  },
+  {
+    id: 9,
+    title:"Super helpful!",
+    decs: "Love the app. I found so many cool events you don't see anywhere else.",
+    img: "/images/section6/9.png",
+    img2: "/images/section6/frame/apple.svg",
+  }
 ];
 
 function Section6() {
@@ -81,7 +137,7 @@ function Section6() {
                     <SplideSlide key={index}>
                       <div
                         key={index}
-                        className=" flex pt-[36px] mx-auto pb-[26px] px-[40px] w-[320px] flex-col items-center rounded-[14px] border-[1px] border-[#f1f1f1] bg-[#fff] text-center"
+                        className=" flex pt-[36px] mx-auto pb-[26px] min-h-[350px] px-[40px] w-[320px] flex-col items-center rounded-[14px] border-[1px] border-[#f1f1f1] bg-[#fff] text-center"
                       >
                         <div className=" relative w-[90px] h-[90px] min-h-[90px] max-h-[90px] mb-[40px]">
                           <img
