@@ -41,24 +41,24 @@ function Section5() {
                     }}  
          >
             <div className='relative hidden sm:block w-full  h-full'>
-                    <div className={` ${click ? "rotate-[-24deg] top-[15%] left-[-7%] ":'rotate-[-10deg] top-0 left-[30%]'}  w-[290px] absolute h-[420px] duration-500 shadow-md ` }>
+                    <div className={` ${click ? "rotate-[-24deg] top-[15%] left-[-7%] ":'rotate-[-15deg] top-0 left-[30%]'}  w-[290px] absolute h-[410px] duration-500  bg-transparent` }>
                         <img
                         src='/images/section5/1.png'
-                        className=' w-full h-full object-cover'
+                        className=' w-full h-full  rounded-[10px] shadow-2xl'
                         alt='as'
                         />
                     </div>
-                    <div className={`  ${click ? " top-0 left-[30%] rotate-4 ":'top-0  left-[32%] rotate-0'}   absolute   duration-500 w-[290px]  h-[420px] shadow-2xl   `}>
+                    <div className={`  ${click ? " top-0 left-[30%] rotate-4 ":'top-0  left-[32%] rotate-[0deg]'}   absolute   duration-500 w-[290px]  h-[410px] bg-transparent  `}>
                     <img
                         src='/images/section5/2.png'
-                        className=' w-full h-full object-cover'
+                        className=' w-full h-full  rounded-[10px] shadow-2xl'
                         alt='as'
                         />
                     </div>
-                    <div className={`   ${click ? " top-[12%] right-[-7%] rotate-[30deg] ":'top-0 rotate-[10deg] right-[30%]'}  absolute top-0 w-[290px]  h-[420px] shadow-2xl duration-500  `}>
+                    <div className={`   ${click ? " top-[12%] right-[-7%] rotate-[30deg] ":'top-0 rotate-[10deg] right-[30%]'}  absolute top-0 w-[290px]  h-[410px]  duration-500  `}>
                     <img
                         src='/images/section5/1.png'
-                        className=' w-full h-full object-cover'
+                        className=' w-full h-full  rounded-[10px] shadow-2xl'
                         alt='as'
                         />
                     </div>
