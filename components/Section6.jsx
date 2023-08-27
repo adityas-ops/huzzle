@@ -1,7 +1,6 @@
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
-import React, { useRef, useEffect, useState } from "react";
-import { IoIosArrowForward } from "react-icons/io";
+import React, { useEffect, useState } from "react";
 
 const data = [
   {
@@ -72,15 +71,18 @@ const data = [
 function Section6() {
   const [padd, setPadd] = useState("1rem");
   const [page, setPage] = useState(1);
+  const [move,setMove] =useState(1);
   useEffect(() => {
     const handleResize = () => {
       // Adjust perPage based on screen size
       if (window.innerWidth < 768) {
         setPadd("1rem");
         setPage(1);
+        setMove(1)
       } else {
         setPadd("1rem");
         setPage(3);
+        setMove(3)
       }
     };
 
@@ -128,7 +130,7 @@ function Section6() {
                 pagination: false,
                 perPage: page,
                 rewind: true,
-                perMove: 3,
+                perMove: move,
               }}
             >
               <SplideTrack>
