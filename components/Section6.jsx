@@ -79,7 +79,7 @@ function Section6() {
         setPadd("1rem");
         setPage(1);
       } else {
-        setPadd("0rem");
+        setPadd("1rem");
         setPage(3);
       }
     };
@@ -192,12 +192,13 @@ function Section6() {
               </SplideTrack>
               <div className="block absolute w-full top-[50%]">
                 <div className="splide__arrows w-full flex relative justify-between">
-                  <button className="splide__arrow splide__arrow--prev absolute left-[10px]">
-                    <div className=" flex items-center  justify-center rounded-[50%] bg-[#fff] ">
+                  <button className="splide__arrow splide__arrow--prev absolute left-[-0%]">
+                  <div className="  flex items-center justify-center rounded-[50%] bg-[#fff] ">
+                      {" "}
                       {" "}
                      <img 
                      src="https://web.archive.org/web/20220705123916im_/https://uploads-ssl.webflow.com/60e5762b1cdfd083aa364733/60e57d2db25ab9d515f798da_Light%20Grey%20Arrow.svg"
-                     className="w-full h-full"
+                     className="h-full w-full"
                         alt="a"
                         />
                     </div>

@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  /* Hide horizontal scrollbar */
+  ::-webkit-scrollbar-horizontal {
+    height: 0.5em;
+  }
+  
+  ::-webkit-scrollbar-thumb:horizontal {
+    background-color: transparent;
+  }
